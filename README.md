@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @TennesseeTanker
+- 👋 Hi, I’m @TennesseeTanker, I just finished my freshman year in computer science.
 - 👀 I’m interested in web design, mobile app dev, and c++
 - 🌱 I’m currently learning c++
 - 💞️ I’m looking to collaborate on anything that helps me learn c++ right now
