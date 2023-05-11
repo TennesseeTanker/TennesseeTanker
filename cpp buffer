@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+/* In a standard read-in (keyboard typed answer via "cin") the program will only act on the first
+part of your answer. For example, in Version 1 of this program if you answer with "Joe Smith" if 
+will only use the parts of your answer before the first blank space.  That means in the first part
+it will only print "Joe" and not "Joe Smith".  However, the " Smith" is not ignored and erased.
+The leading blank space is stripped off and the rest is placed in the buffer for later use.  In
+Version 2, we see how it is them accessed and printed.
+
+// VERSION 1
+int main()
+{	
+    string name;  // this should have been put at the top, not on the second line of main
+
+    cout << "What is your name? ";
+    cin >> name;
+  	cout << "Hello, " << name << endl << "And what is yours? ";
+   	cin >> name;
+    cout << "Hello, " << name  << "; nice to meet you too!" << endl;
+   	return 0;
+}
+
+// VERSION 2
+int main(){
+
+  return 0;
+}
+// bedtime - finish this later
