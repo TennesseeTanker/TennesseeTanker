@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+/* Scope is just a local area within code.
+Any variables established locally within the scope only exist during that scope and are erased when the scope ends.
+Scope is established via the curly-brackets.
+The opening curly-bracket "{" starts the scope and the closing curly-bracket "}" ends the scope.
+Scopes do not require function names, but in order to call a specific scope - it must be given a name (a function name).
+
+C++ is a free form language and does not require specific spacing - it will ignore blank spaces and go to the next
+non-blank-space character. */
+
+  // So it doesn't matter if you type it like this:
+  {
+    const string s = "a string";
+   	cout << s << endl;
+	}
+
+  // or like this:
+  {const string s = "another string"; cout << s << endl;}
+  
+  // however, this second one is ugly and generally considered badly formatted
+  // because it makes it difficult to read - so don't do the second style.
+
+  // EXECUTION NOTE:
+  // Because neither of these two scopes have a name, they get executed in sequential order (procedural paradigm).
+  // The first scope is executed and the string s is created with the value "a string", which is then printed (cout command).
+  // That scope ends and the string is erased.  The second scope is executed and another variable of the name s is
+  // created with the value "another string", which is also printed.  Two completely different variables using the same
+  // name can exist within the code because they don't exist at the same time.
+  
+  return 0;
+}
